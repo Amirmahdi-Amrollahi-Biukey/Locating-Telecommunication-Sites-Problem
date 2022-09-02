@@ -1,0 +1,104 @@
+The connections between Customers and Sites
+
+x[ 1 5 ]: 1.0
+x[ 2 2 ]: 1.0
+x[ 3 2 ]: 1.0
+x[ 4 1 ]: 1.0
+x[ 5 4 ]: 1.0
+x[ 6 3 ]: 1.0
+x[ 7 1 ]: 1.0
+x[ 8 4 ]: 1.0
+x[ 9 5 ]: 1.0
+x[ 10 5 ]: 1.0
+x[ 11 1 ]: 1.0
+x[ 12 5 ]: 1.0
+x[ 13 3 ]: 1.0
+x[ 14 2 ]: 1.0
+x[ 15 4 ]: 1.0
+x[ 16 2 ]: 1.0
+x[ 17 6 ]: 1.0
+x[ 18 4 ]: 1.0
+x[ 19 5 ]: 1.0
+x[ 20 6 ]: 1.0
+x[ 21 3 ]: 1.0
+x[ 22 4 ]: 1.0
+x[ 23 4 ]: 1.0
+x[ 24 4 ]: 1.0
+x[ 25 2 ]: 1.0
+x[ 26 4 ]: 1.0
+x[ 27 5 ]: 1.0
+x[ 28 4 ]: 1.0
+x[ 29 4 ]: 1.0
+x[ 30 5 ]: 1.0
+x[ 31 3 ]: 1.0
+x[ 32 4 ]: 1.0
+x[ 33 4 ]: 1.0
+x[ 34 6 ]: 1.0
+x[ 35 3 ]: 1.0
+x[ 36 1 ]: 1.0
+x[ 37 2 ]: 1.0
+x[ 38 1 ]: 1.0
+x[ 39 3 ]: 1.0
+x[ 40 4 ]: 1.0
+x[ 41 2 ]: 1.0
+x[ 42 4 ]: 1.0
+x[ 43 1 ]: 1.0
+x[ 44 5 ]: 1.0
+x[ 45 4 ]: 1.0
+x[ 46 1 ]: 1.0
+x[ 47 2 ]: 1.0
+x[ 48 3 ]: 1.0
+x[ 49 6 ]: 1.0
+x[ 50 6 ]: 1.0
+x[ 51 6 ]: 1.0
+x[ 52 1 ]: 1.0
+x[ 53 4 ]: 1.0
+x[ 54 4 ]: 1.0
+x[ 55 4 ]: 1.0
+x[ 56 6 ]: 1.0
+x[ 57 4 ]: 1.0
+x[ 58 4 ]: 1.0
+x[ 59 3 ]: 1.0
+x[ 60 6 ]: 1.0
+
+for example: The customer(1) connected to Site(5)
+
+y(i) determines if Site(j) connected to more than 8 Customers
+
+y[ 1 ]: 0.0
+y[ 2 ]: 0.0
+y[ 3 ]: 0.0
+y[ 4 ]: 1.0
+y[ 5 ]: 0.0
+y[ 6 ]: 0.0
+
+Only Site(4) connected to more than 8 Customers
+
+p(i) determines if Site(j) is active
+
+p[ 1 ]: 1.0
+p[ 2 ]: 1.0
+p[ 3 ]: 1.0
+p[ 4 ]: 1.0
+p[ 5 ]: 1.0
+p[ 6 ]: 1.0
+
+All of the Sites are active
+
+sm(1) determines the difference between the actual and goal amount of benefit 
+
+sm[ 1 ]: 20.200000000000138
+
+So the actual benefit was 299.8(320 - 20.2) million Tomans
+
+sm(2) determines the difference between the actual and goal number of active Sites
+
+sm[ 2 ]: -0.0
+
+So the number of active Sites is at least 5 and there will be no lose in the next 30 years
+
+sp(3) determines the difference between the actual and goal amount of wire used
+
+sp[ 3 ]: 60.0
+
+So the actual amount of wire used was 2560(2500 + 60) meters

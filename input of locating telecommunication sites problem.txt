@@ -1,0 +1,18 @@
+
+I(Number of Customers) = 60
+
+J(Number of Sites) = 6
+
+cm(Price of using 1 meter of wire in million Tomans) = 0.02
+
+ca(price of additional equipment in million Tomans) = 1
+
+Z1(Goal of benefit in million Tomans) = 320 
+
+Z2(Goal of number of active Sites given in the question) = 5
+
+Z3(Goal of wire usage in meters) = 2500
+
+v(i)(Predicted value for Customer(i))
+
+d(i)(j)(Distance between Customer(i) and Site(j))
